@@ -1,0 +1,15 @@
+.tagBar{
+  transform: translateX(-100%) ;
+  transition: 0.3s ease-in-out;
+}
+.showTagBar{
+  transform: translateX(0);
+}
+
+.tagBar::-webkit-scrollbar {
+  width: 20px;
+}
+
+.tagBar::-webkit-scrollbar-thumb {
+  background: transparent;
+}
