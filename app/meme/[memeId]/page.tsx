@@ -18,7 +18,7 @@ const memeDetail = async ({ params }: any) => {
             height={100}
             className="rounded-[50%] w-[60px] h-[60px] bg-contain border-[#434343] border-[1px]"
           />
-          <h1 className="font-bold">{data.data.name}</h1>
+          <h1 className="font-bold">{data.data.id}</h1>
         </div>
         <div>
           <p className="pl-4 mb-4">{data.data.name}</p>
