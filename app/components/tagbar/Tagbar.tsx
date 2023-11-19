@@ -30,7 +30,7 @@ const Tagbar = ({ show }: any) => {
         <div className="relative sm:hidden">
           <button onClick={() => (window.location.href = "/meme/" + search)}>
             <i
-              className="fa-solid fa-magnifying-glass text-[22px] absolute right-[10px] top-[45%] text-[#999999] 
+              className="fa-solid fa-magnifying-glass text-[22px] absolute right-[10px] top-[43%] text-[#999999] 
       cursor-pointer hover:bg-[#666666] hover:text-white p-2 rounded-[50%] transition delay-75 ease-in-out "
             ></i>
           </button>
