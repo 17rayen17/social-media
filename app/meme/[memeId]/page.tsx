@@ -1,8 +1,7 @@
 import axios from "axios";
-import { Params } from "next/dist/shared/lib/router/utils/route-matcher";
 import Image from "next/image";
 
-const memeDetail = async ({ params }: Params) => {
+const memeDetail = async ({ params }: any) => {
   // console.log(params)
   const memeId = params.memeId;
   const data = await axios.get<any>(
